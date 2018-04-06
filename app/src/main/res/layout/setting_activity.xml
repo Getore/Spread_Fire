@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--设置界面，准备修改界面-->
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite" >
+
+    <!--确定主题和返回按钮-->
+    <RelativeLayout
+        android:id="@+id/topRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorTheme"
+            />
+        <ImageButton
+            android:id="@+id/backImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_left"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30px"
+            />
+
+        <!--设置标题-->
+        <TextView
+            android:text="设置"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="150px"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/contentLinearLayout"
+        android:orientation="vertical"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent="13%" >
+        <TextView
+            android:id="@+id/tip000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="      3G/4G/5G 自动播放视频"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/tip001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="            为节省流量费用，建议关闭"
+            android:textSize="10sp"
+            />
+
+        <TextView
+            android:id="@+id/tip010"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="      允许3G/4G/5G下载视频"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/tip011"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="            为节省流量费用，建议关闭"
+            android:textSize="10sp"
+            />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/switch000_imagebutton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:layout_gravity="right"
+        app:layout_marginTopPercent="13%"
+        app:layout_marginEndPercent="8%"
+        app:layout_widthPercent="10%"
+        app:layout_heightPercent="10%"
+        android:src="@drawable/computer"
+        />
+    <ImageButton
+        android:id="@+id/switch010_imagebutton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:layout_gravity="right"
+        app:layout_marginTopPercent="23%"
+        app:layout_marginEndPercent="8%"
+        app:layout_widthPercent="10%"
+        app:layout_heightPercent="10%"
+        android:src="@drawable/computer"
+        />
+    <TextView
+        android:id="@+id/line000_textview"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorLightGrey"
+        app:layout_marginTopPercent="33%"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="1%"
+        />
+
+    <!--检查版本，横向布置-->
+    <LinearLayout
+        android:id="@+id/checkLinearLayout"
+        android:orientation="horizontal"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="5%"
+        app:layout_marginTopPercent="36%" >
+
+        <ImageView
+            android:id="@+id/check_image"
+            android:src="@drawable/safe"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/check_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="检查更新"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:id="@+id/checkVersion_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="3"
+            android:layout_gravity="right"
+            android:text="当前版本 1.0.0      "
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+    <!--意见反馈，横向布置-->
+    <LinearLayout
+        android:id="@+id/other000LinearLayout"
+        android:orientation="horizontal"
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="5%"
+        app:layout_marginTopPercent="42%" >
+
+        <ImageView
+            android:id="@+id/suggestion_imageview"
+            android:src="@drawable/speech_bubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/suggestion_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="意见反馈"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+    <!--联系客服，横向布置-->
+    <LinearLayout
+        android:id="@+id/other001LinearLayout"
+        android:orientation="horizontal"
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="5%"
+        app:layout_marginTopPercent="48%" >
+
+        <ImageView
+            android:id="@+id/custom_imageview"
+            android:src="@drawable/people"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/custom_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="联系客服"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+    <!--关于我们，横向布置-->
+    <LinearLayout
+        android:id="@+id/other002LinearLayout"
+        android:orientation="horizontal"
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="5%"
+        app:layout_marginTopPercent="54%" >
+
+        <ImageView
+            android:id="@+id/aboutUs_imageview"
+            android:src="@drawable/fire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:id="@+id/aboutUs_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="关于我们"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+
+</android.support.percent.PercentFrameLayout>

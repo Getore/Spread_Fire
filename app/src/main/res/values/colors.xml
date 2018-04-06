@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#2E2E2E</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="red">#f11414</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorRoyalBlue">#4169E1</color><!--皇家蓝-->
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDimGray">#696969</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLightSteelBlue">#B0C4DE</color><!--淡钢蓝-->
+    <color name="colorLightGrey">#D3D3D3</color><!--浅灰色-->
+    <color name="colorGainsboro">#DCDCDC</color><!--亮灰色-->
+    <color name="colorGainsborodown">#C6C4C4</color><!--亮灰色-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorzongse">#735342</color>
+    <color name="colorchengse">#F7C161</color>
+    <color name="colorSkyBlue">#87CEEB</color>
+    <color name="colorTheme">#31363D</color>
+    <color name="colorLoginBackground">#E86142</color>
+    <color name="colorRegister">#3B4048</color>
+    <color name="colorLookAround">#64717F</color>
+    <color name="colorGreen">#01B091</color>
+    <color name="colorGray">#808080</color>
+    <color name="colorTransparentGainsboro">#41dcdcdc</color><!--带有透明的亮灰色-->
+    <color name="colorTransparentcolorTheme">#0f31363d</color><!--带有透明的主题色-->
+</resources>

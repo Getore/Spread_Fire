@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">可燎</string>
+    <string name="hello">Hello World, Date!</string>
+    <string name="strInputAccHint">输入帐号</string>
+    <string name="strAccInputLabel">帐号</string>
+    <string name="strPswInputLabel">密码</string>
+    <string name="login">登 录</string>
+    <string name="register">注册</string>
+    <string name="cancle">取消</string>
+    <string name="account_empty">用户名为空，请重新输入！</string>
+    <string name="pwd_empty">密码为空，请重新输入！</string>
+    <string name="register_fail">注册用户失败，请重新尝试！</string>
+    <string name="register_sucess">注册成功！</string>
+    <string name="login_sucess">登陆成功！</string>
+    <string name="login_fail">登陆失败！请输入正确的用户名与密码！</string>
+    <string name="name_already_exist">用户名：<xliff:g example="tom" id="id1">%1$s</xliff:g>已存在，请重新输入！</string>
+    <string name="user_login_sucess">用户：<xliff:g example="tom" id="id2">%1$s</xliff:g>登录，欢迎光临！</string>
+
+
+    <string-array name="suggestions">
+        <item>Apple</item>
+        <item>Apricot</item>
+        <item>Avocado</item>
+        <item>Banana</item>
+        <item>Blueberry</item>
+        <item>Blackberry</item>
+        <item>Carrot</item>
+        <item>Cherry</item>
+        <item>Orange</item>
+        <item>Potato</item>
+        <item>Peach</item>
+        <item>Passion fruit</item>
+        <item>Pear</item>
+        <item>小羽</item>
+        <item>可可</item>
+        <item>申可可</item>
+        <item>冯光羽</item>
+        <item>吴国瑶</item>
+        <item>周越</item>
+        <item>沈力</item>
+        <item>应届菜鸟到架构师的一次完美蜕变</item>
+        <item>职场零距离成长无极限</item>
+        <item>深入学习(入门)</item>
+        <item>技术类应届生，简历制作与面试技巧</item>
+        <item>HTML入门基础</item>
+        <item>机器学习特训营</item>
+        <item>基础算法(传奇ACMer小岛)</item>
+    </string-array>
+</resources>

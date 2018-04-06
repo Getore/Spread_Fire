@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--原.消息界面.已废弃-->
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <!--引用title.xml 统一标题风格-->
+    <include
+        android:id="@+id/title_news"
+        layout="@layout/title"
+        app:layout_widthPercent="100%"
+        app:layout_heightPercent="10%"
+        />
+    <!--设置标题-->
+    <TextView
+        android:id="@+id/titleName_textview"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:layout_gravity="top|center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_marginTopPercent="3%"
+        android:text="我的消息"
+        android:textSize="24sp"
+        android:textColor="@color/colorBlack"
+        />
+    <!--系统公告栏，及时发送直播提醒信息-->
+    <TextView
+        android:id="@+id/newsSys_textview"
+        app:layout_widthPercent="90%"
+        app:layout_heightPercent="40%"
+        app:layout_marginTopPercent="12%"
+        app:layout_marginEndPercent="5%"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:text="(系统公告栏，及时发送直播提醒信息)"
+        android:background="@color/colorLightGrey"
+        />
+    <!--四个按钮-->
+    <Button
+        android:id="@+id/newsAnswer_button"
+        app:layout_widthPercent="35%"
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="55%"
+        app:layout_marginEndPercent="55%"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:text="回复我的"
+        android:textSize="20sp"
+        android:background="@drawable/bt_shape"
+        />
+    <Button
+        android:id="@+id/newsCallMe_button"
+        app:layout_widthPercent="35%"
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="55%"
+        app:layout_marginEndPercent="10%"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:text="\@我"
+        android:textSize="20sp"
+        android:background="@drawable/bt_shape"
+        />
+    <Button
+        android:id="@+id/newsGood_button"
+        app:layout_widthPercent="35%"
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="70%"
+        app:layout_marginEndPercent="55%"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:text="收到的赞"
+        android:textSize="20sp"
+        android:background="@drawable/bt_shape"
+        />
+    <Button
+        android:id="@+id/news_button"
+        app:layout_widthPercent="35%"
+        app:layout_heightPercent="10%"
+        app:layout_marginTopPercent="70%"
+        app:layout_marginEndPercent="10%"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:text="私信"
+        android:textSize="20sp"
+        android:background="@drawable/bt_shape"
+        />
+
+</android.support.percent.PercentFrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--这是主界面.第一个界面中的广告图片可横向滑动显示-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/ad_image"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/colorzongse"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>

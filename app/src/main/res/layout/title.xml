@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTheme" >
+
+    <ImageButton
+        android:id="@+id/backTitle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:layout_gravity="left"
+        android:layout_margin="2dp"
+        android:src="@drawable/ic_left"
+        />
+
+</LinearLayout>

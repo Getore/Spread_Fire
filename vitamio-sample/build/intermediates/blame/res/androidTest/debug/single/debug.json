@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw_test_cbr.mp3.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\bundles\\debug\\res\\raw\\test_cbr.mp3"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_mediaplayer_3.xml.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\bundles\\debug\\res\\layout\\mediaplayer_3.xml"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_videobuffer.xml.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\bundles\\debug\\res\\layout\\videobuffer.xml"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_control_disabled_holo.png.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_control_disabled_holo.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_control_normal_holo.png.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_control_normal_holo.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_subtitle1.xml.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\bundles\\debug\\res\\layout\\subtitle1.xml"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_mediacontroller_screen_fit.png.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mediacontroller_screen_fit.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_mediaplayer_1.xml.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\bundles\\debug\\res\\layout\\mediaplayer_1.xml"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_mediacontroller_pause.png.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mediacontroller_pause.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_ic_launcher.png.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_primary_holo.9.png.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_primary_holo.9.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_videoview.xml.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\bundles\\debug\\res\\layout\\videoview.xml"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_secondary_holo.9.png.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_secondary_holo.9.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_mediacontroller_sreen_size_100.png.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mediacontroller_sreen_size_100.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_ic_launcher.png.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_scrubber_control_selector_holo.xml.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable\\scrubber_control_selector_holo.xml"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_mediacontroller_play.png.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mediacontroller_play.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_mediacontroller_screen_size.png.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mediacontroller_screen_size.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_media_metadata.xml.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\bundles\\debug\\res\\layout\\media_metadata.xml"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_track_holo_dark.9.png.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_track_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw_libarm.so.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio\\build\\intermediates\\bundles\\debug\\res\\raw\\libarm.so"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_control_focused_holo.png.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_control_focused_holo.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_launcher.png.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_mediacontroller.xml.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio\\build\\intermediates\\bundles\\debug\\res\\layout\\mediacontroller.xml"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_scrubber_progress_horizontal_holo_dark.xml.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable\\scrubber_progress_horizontal_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_scrubber_control_pressed_holo.png.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\scrubber_control_pressed_holo.png"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_mediaplayer_2.xml.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\bundles\\debug\\res\\layout\\mediaplayer_2.xml"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_subtitle2.xml.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\bundles\\debug\\res\\layout\\subtitle2.xml"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_mediacontroller_button.xml.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable\\mediacontroller_button.xml"
+    },
+    {
+        "merged": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_mediacontroller_sreen_size_crop.png.flat",
+        "source": "D:\\Android\\workspace\\Spread_Fire\\vitamio-sample\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\mediacontroller_sreen_size_crop.png"
+    }
+]

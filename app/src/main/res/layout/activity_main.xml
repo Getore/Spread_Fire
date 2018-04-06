@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    >
+    <!--刷新框架-->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/am_srl_reflush"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp">
+            <!--核心评价内容-->
+            <ListView
+                android:id="@+id/am_lv_comments"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:divider="@null"
+                android:scrollbars="none">
+            </ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <!--横线-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorTheme"/>
+
+    <!--评论和点赞-->
+    <LinearLayout
+        android:id="@+id/am_ll_info"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        >
+        <!--点赞-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/am_tv_zan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:drawableLeft="@mipmap/ic_thumb_normal"
+                android:drawablePadding="16dp"
+                android:text="点赞"
+                android:textColor="@color/colorTheme"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+        <!--竖线-->
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@color/colorTheme"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <!--评论-->
+            <TextView
+                android:id="@+id/am_tv_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:drawableLeft="@mipmap/ic_communtiy"
+                android:drawablePadding="16dp"
+                android:text="评论"
+                android:textColor="@color/colorTheme"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 输入框、留言按钮 -->
+    <LinearLayout
+        android:id="@+id/am_ll_liuyan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorTheme"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <!-- 输入框 -->
+        <EditText
+            android:id="@+id/am_et_msg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorWhite"
+            android:gravity="center_vertical"
+            android:inputType="textMultiLine"
+            android:maxLength="100"
+            android:maxLines="1"
+            android:minHeight="40dp"
+            android:hint="千言万语，汇成评论一句"
+            />
+        <!-- 留言按钮 -->
+        <Button
+            android:id="@+id/am_b_save"
+            android:layout_width="70dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="1dp"
+            android:background="@color/colorWhite"
+            android:text="回复"
+            android:textColor="@color/colorTheme"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+</LinearLayout>

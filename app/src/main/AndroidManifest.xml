@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.keliao.koko.activitys">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_name"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.keliao.koko.activitys.IndexActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.keliao.koko.activitys.PersonalActivity" />
+        <activity android:name="com.keliao.koko.activitys.SettingActivity" />
+        <activity android:name="com.keliao.koko.activitys.NewsActivity" />
+        <activity android:name="com.keliao.koko.activitys.LoginActivity" />
+        <activity android:name="com.keliao.koko.activitys.IndexOtherActivity" />
+        <activity android:name="com.keliao.koko.activitys.RegisterActivity" />
+        <activity android:name="com.keliao.koko.util.hideTitle" />
+        <activity android:name="com.keliao.koko.activitys.ForgetPasswordActivity" />
+        <activity android:name="com.keliao.koko.activitys.MainActivity" />
+        <activity android:name="com.keliao.koko.activitys.SearchingActivity"></activity>
+        <activity android:name="com.keliao.koko.activitys.WatchMovieActivity">
+        </activity>
+        <activity android:name="com.keliao.koko.activitys.CommentActivity">
+        </activity>
+        <provider
+            android:name="br.com.mauker.materialsearchview.db.HistoryProvider"
+            android:authorities="br.com.mauker.materialsearchview.searchhistorydatabase"
+            android:exported="false"
+            android:protectionLevel="signature"
+            android:syncable="true" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--搜索界面-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.keliao.koko.activitys.SearchingActivity"
+    android:background="@color/white">
+    <!--顶部搜索-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorTheme"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+        <RelativeLayout
+            android:id="@+id/topRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ImageButton
+                android:id="@+id/backImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_left"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="2dp"
+                />
+            <Button
+                android:id="@+id/search_button"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@mipmap/ic_search"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <!--清除历史记录按按钮-->
+    <Button
+        android:id="@+id/bt_clearHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTransparentGainsboro"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="清除历史"
+        android:textSize="15sp"
+        android:textColor="@color/colorGray"
+        />
+    <!--视频的资源推荐-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/search_recycler_view"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+    <!--按住ctrl + 点击style中的属性，即可进入修改搜索栏的颜色等属性-->
+    <br.com.mauker.materialsearchview.MaterialSearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/MaterialSearchViewStyle"
+        />
+
+</RelativeLayout>
