@@ -1,10 +1,7 @@
-# Spread_Fire
-It's my first APP.
-这是《第九届中国大学生服务外包创新创业大赛》的一个比赛作品，主要是界面的制作，播放视频本来想用vitamio的，
-失败的地方应该是没有服务器的缘故。里面所用到的依赖如下：
+#### Spread_Fire
+###### 这是《第九届中国大学生服务外包创新创业大赛》的一个比赛作品，主要是界面的制作.
 
-
-  
+```Java
   dependencies {
 
       compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
@@ -21,3 +18,4 @@ It's my first APP.
       compile 'com.facebook.fresco:fresco:0.9.0+'
       compile 'org.litepal.android:core:1.6.1'
   }
+```
