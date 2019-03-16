@@ -4,7 +4,7 @@
 #### TEL : 15200831505
 
 ##### 参考书籍 : 《第一行代码》(郭霖)
-##### 学习网站 : CSDN 、 Github 、 http://www.jcodecraeer.com(泡在网上的日子)
+##### 学习网站 : CSDN 、 Github 、 http://www.jcodecraeer.com (泡在网上的日子)
 ###### 这是《第九届中国大学生服务外包创新创业大赛》的一个比赛作品，主要是界面的制作.
 
 ```Java
